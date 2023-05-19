@@ -1,0 +1,101 @@
+.alert {
+    position: relative;
+    top: 10;
+    left: 0;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    line-height: 1.8;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: hand;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+
+  
+  .alertCheckbox {
+    display: none;
+  }
+  
+  :checked + .alert {
+    display: none;
+  }
+  
+  .alertText {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .alertClose {
+    float: right;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .info {
+    background-color: #EEE;
+    border: 1px solid #DDD;
+    /* color: #999; */
+    color: black;
+  }
+  
+  .success {
+    background-color: #EFE;
+    border: 1px solid #DED;
+    /* color: #9A9; */
+    color: black;
+  }
+  
+  .notice {
+    background-color: #EFF;
+    border: 1px solid #DEE;
+    /* color: #9AA; */
+    color: black;
+  }
+  
+  .warning {
+    background-color: #FDF7DF;
+    border: 1px solid #FEEC6F;
+    /* color: #C9971C; */
+    color: black;
+  }
+  
+  .error {
+    background-color: #FEE;
+    border: 1px solid #EDD;
+    /* color: #A66; */
+    color: black;
+  }
+  .alerterror1{
+    position: relative;
+    top: 10;
+    left: 0;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    line-height: 1.8;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: hand;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    background-color: #FEE;
+    border: 1px solid #EDD;
+    /* color: #A66; */
+    color: black;
+    width:300px;
+    margin-bottom: 15px;
+  }

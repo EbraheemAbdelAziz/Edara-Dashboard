@@ -1,0 +1,29 @@
+.products-super{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    margin-top: 20px;
+   
+ }
+ .product{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+ }
+ .span1{
+   /* fontSize:"25px",marginLeft:"695px",padding:"10px" */
+   font-size: 25px;
+   font-weight: bold;   
+   margin-bottom: 15px;
+   margin: 10px 665px;
+   border: 1px solid black;
+   padding: 10px;
+   background-color:  rgb(125, 168, 192);
+   color: rgb(0, 0, 0);
+   border-radius: 10px;
+
+ }

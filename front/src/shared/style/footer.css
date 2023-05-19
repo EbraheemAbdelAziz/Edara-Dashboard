@@ -1,0 +1,15 @@
+
+.footer
+{
+    margin-top: 35px;
+    background-color: #abb5c0;
+    /* #2890b9 */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 98.5%;
+}
+.sp{
+    color: rgb(22, 108, 151);
+}
